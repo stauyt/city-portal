@@ -1,0 +1,52 @@
+body{
+    display: grid;
+    grid-template-rows: 80px auto 80px;
+    flex: 1;
+}
+
+.orders{
+    width: 100%;
+}
+.orders-list{
+    width: 100%;
+}
+
+main{
+    padding: 0 50px;
+}
+
+.order__filter{
+    display: flex;
+    height: 20px;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.profile__data{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 15px;
+    gap: 10px;
+}
+
+fieldset input {
+    border: 1px solid gainsboro;
+}
+
+textarea{
+    resize: vertical;
+}

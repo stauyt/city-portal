@@ -1,0 +1,64 @@
+body,html{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.footer{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.menu__item{
+    cursor: pointer;
+}
+
+td:last-child{
+    text-align: center;
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type='submit']{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    border-radius: 999px;
+    height: 40px;
+    font-size: 1.6ch;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+input[type='file']{
+    border: none;
+}
+
+a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-radius: 999px;
+}

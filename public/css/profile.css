@@ -1,0 +1,47 @@
+body{
+    display: grid;
+    grid-template-rows: 80px auto 80px;
+    flex: 1;
+}
+
+.orders{
+    width: 100%;
+}
+.orders-list{
+    width: 100%;
+}
+.orders-list__head{
+    font-weight: 600;
+}
+
+main{
+    padding: 0 50px;
+}
+
+.order__filter{
+    display: flex;
+    height: 20px;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 999px;
+    padding: 10px;
+}
+.order__filter input{
+    flex: 1;
+    border: 1px solid gainsboro;
+}
+
+.profile__data{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card{
+}
+.card__delete{
+    cursor: pointer;
+    font-weight: 900;
+}

@@ -1,0 +1,45 @@
+body{
+    display: grid;
+    grid-template-rows: 80px auto 80px;
+    width: 100%;
+}
+a{
+    border: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 0 50px;
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 30px;
+    text-align: center;
+}
+
+.public-card{
+    display: flex;
+    flex-direction: column;
+}
+.public-card__image{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.public-card__meta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    border-bottom-left-radius: 15px;
+    padding: 10px 20px;
+    border-bottom-right-radius: 15px;
+}
+.public-card__type{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
