@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,3 +40,5 @@ Route::get('/profile/admin', function () {
 Route::get('/profile/order', function () {
     return view('pages.order');
 })->name('profile.order');
+
+Route::post('/user', [UserController::class, 'create']);
